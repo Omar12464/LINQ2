@@ -1,13 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
-using static LINQ.ListGenerators;
-namespace LINQ
+namespace LINQ2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            #region  - Element Operators
+            #region Linq - Element Operators
             #region Q1
             //var result = ProductList.First(p => p.UnitsInStock == 0);
             //Console.WriteLine(result); 
